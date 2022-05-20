@@ -1,0 +1,41 @@
+<html>
+
+<head>
+
+    <style>
+
+        .bounce{
+            animation: test 3s infinite;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="bounce">
+        6666666
+        <h2>222222222222</h2>
+    </div>
+
+</body>
+
+</html>
+
+<script>
+
+    var sty = document.querySelector('style')
+
+    sty.sheet.insertRule(`@keyframes test{
+        10%,20%,60%{
+            color:red;
+        }
+        
+        15%,25%,80%{
+            color:blue;
+        }
+
+    }`)
+
+
+
+</script>
